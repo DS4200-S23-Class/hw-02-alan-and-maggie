@@ -1,0 +1,18 @@
+/* Styling goes in this file */
+
+body {
+	font-family: Arial;
+
+}
+
+.info {
+	text-align: center;
+}
+
+.la-header {
+	text-align: left;
+}
+
+table, tr, td {
+  border: 1px solid black;
+}

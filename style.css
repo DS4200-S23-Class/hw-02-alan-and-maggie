@@ -29,14 +29,14 @@ table, tr, td {
 
 .column1 {
 	width: 65%;
-	height: 100vh;
+	height: 110vh;
 	text-align: center;
 }
 
 .column2 {
 	width: 65%;
 	text-align: center;	
-	height: 100vh;
+	height: 110vh;
 }
 
 .charts {
@@ -44,12 +44,45 @@ table, tr, td {
 	color: blue;
 }
 
-#decoration {
-	position: relative;
-	top: 100px;
+.decoration {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
 }
 
-#footer {
-	position: relative;
-	top: 100px;
+.rectan1 {
+	fill: rgb(255, 0, 251); stroke-width: 5; stroke: rgb(0, 0, 0)
+}
+
+.circ1 {
+	fill: rgb(25, 25, 25); stroke-width: 0; stroke: rgb(0, 0, 0); opacity: 0.5;
+}
+
+.rectan2 {
+	fill: rgb(46, 212, 67); stroke-width: 5; stroke: rgb(0, 0, 0)
+}
+
+.circ2 {
+	fill: rgb(50, 75, 4); stroke-width: 0; stroke: rgb(0, 0, 0); opacity:0.5;
+}
+
+.rectan1:hover, .rectan1:focus {
+	fill: darkslateblue;
+}
+
+.rectan2:hover, .rectan2:focus {
+	fill: darkslateblue;
+}
+
+.circ1:hover {
+	stroke-width: 3; stroke: black;
+}
+
+.circ2:hover {
+	stroke-width: 3; stroke: black;
+}
+
+.footer {
+	display: flex;
+	flex-direction: row;
 }
